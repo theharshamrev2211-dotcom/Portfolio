@@ -1,0 +1,151 @@
+/* --------- Global Styles ---------- */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    background: linear-gradient(135deg, #ffffff, #e6e6e6);
+
+;
+    color: #000000;
+    line-height: 1.6;
+}
+
+/* --------- Header ---------- */
+header {
+    text-align: center;
+    padding: 40px 20px;
+    background: linear-gradient(135deg, #00c6ff, #0072ff);
+
+;
+    color: #000000;
+}
+
+header h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+
+header p {
+    font-size: 1.1rem;
+}
+
+/* --------- About Section ---------- */
+.about {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 60px 20px;
+    gap: 40px;
+}
+
+.about img {
+    width: 200px;
+    height: 200px;
+    border-radius: 200px;
+    object-fit: cover;
+    border: 4px solid #222;
+}
+
+.about div {
+    max-width: 500px;
+}
+
+.about h2 {
+    margin-bottom: 10px;
+    font-size: 2rem;
+}
+
+.about p {
+    font-size: 1.1rem;
+}
+
+/* --------- Projects Section ---------- */
+.projects {
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.projects h2 {
+    font-size: 2.2rem;
+    margin-bottom: 30px;
+}
+
+.project-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    gap: 20px;
+    padding: 10px;
+}
+
+.project-card {
+    background: #ffffff
+;
+    padding: 25px;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    transition: 1.3s;
+}
+
+.project-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 6px 16px rgba(0,0,0,0.15);
+}
+
+.project-card h3 {
+    margin-bottom: 10px;
+    font-size: 1.4rem;
+}
+
+/* --------- Contact Section ---------- */
+.contact {
+    text-align: center;
+    padding: 60px 20px;
+    background: #222;
+    color: #fff;
+}
+
+.contact h2 {
+    font-size: 2.2rem;
+    margin-bottom: 10px;
+}
+
+.contact p {
+    margin-bottom: 20px;
+    font-size: 1.1rem;
+}
+
+.btn {
+    display: inline-block;
+    background: linear-gradient(135deg, #ff9a9e, #fad0c4);
+
+    color: #222;
+    padding: 12px 25px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: 600;
+    transition: .3s;
+}
+.btn i{
+    margin-right: 8px;
+    font-size: 18px;
+}
+
+.btn:hover {
+    background: #ffffff;
+    color: #000;
+    transform: translateY(-8px);
+
+}
+
+/* --------- Footer ---------- */
+footer {
+    text-align: center;
+    padding: 20px;
+    background: #eeecec;
+    color: #000000;
+    font-size: .9rem;
+}
