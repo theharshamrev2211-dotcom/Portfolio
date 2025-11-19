@@ -82,7 +82,7 @@ header p {
 }
 
 .project-card {
-    background: #0940d8
+    background: #ffffff
 ;
     padding: 25px;
     border-radius: 15px;
@@ -149,4 +149,5 @@ footer {
     color: #000000;
     font-size: .9rem;
 }
+
 
